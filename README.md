@@ -1,4 +1,4 @@
-![resim](https://github.com/muhammeddincmdx/Py-VeriCekme1/assets/54439858/7da315b6-147d-4bd9-ac51-60dcfd25459a)# İnternetten Veri Çekme Pratikleri
+# İnternetten Veri Çekme Pratikleri
 
 Kütüphanelerin Kullanımı
 ---
