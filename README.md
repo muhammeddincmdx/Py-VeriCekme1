@@ -1,4 +1,4 @@
-# İnternetten Veri Çekme Pratikleri
+![resim](https://github.com/muhammeddincmdx/Py-VeriCekme1/assets/54439858/7da315b6-147d-4bd9-ac51-60dcfd25459a)# İnternetten Veri Çekme Pratikleri
 
 Kütüphanelerin Kullanımı
 ---
@@ -18,3 +18,14 @@ Projenin Amacı ve Anlamı
 Borsa ile ilgili bir website üzerinden altın, dolar, euro, bist100 değerlerini 1 dakikada güncellenecek şekilde çekerek kullanıcıya tkinter kütüphanesini kullanarak arayüz ile göstermek.
 
 ![](assets/img1.png)
+
+
+İlgili verileri çekmek için öncelikle siteye gidip çekmek istediğimiz verinin html kodunu inceledik 
+örnek vermek gerekirse altın için 
+````
+altindata = soup.find("span", {"data-socket-key": "gram-altin"}).text
+````
+Burada span içindeki data-socket-key değerinin gram-altin'a eşit olan değerini bulup çekiyoruz böylece değeri elde etmiş olduk. 
+![resim](https://github.com/muhammeddincmdx/Py-VeriCekme1/assets/54439858/7bcb3776-ef68-4248-bb9f-7cc2554cd37d)
+
+
